@@ -82,3 +82,11 @@ xcopy /s/y include\ "$($env:GODOT_INSTALL_DIR)include\"
 xcopy /s/y gdextension\gdextension_interface.h "$($env:GODOT_INSTALL_DIR)include\"
 ```
 
+## Shortcuts
+
+https://github.com/godotengine/godot-cpp
+
+https://docs.godotengine.org/en/latest/tutorials/scripting/gdextension/gdextension_file.html
+
+https://docs.godotengine.org/en/latest/tutorials/scripting/gdextension/gdextension_cpp_example.html
+

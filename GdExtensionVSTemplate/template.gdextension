@@ -1,0 +1,12 @@
+[configuration]
+
+entry_symbol = "gdextension_main"
+compatibility_minimum = "4.3"
+compatibility_maximum = "4.3"
+reloadable = true
+
+[libraries]
+
+windows.debug.x86_64 = "res://bin/libGdExtensionVSTemplate.x64.Debug.dll"
+windows.release.x86_64 = "res://bin/libGdExtensionVSTemplate.x64.Release.dll"
+

@@ -20,7 +20,7 @@ namespace entry
 		}
 		case godot::MODULE_INITIALIZATION_LEVEL_SCENE:
 		{
-			GDREGISTER_CLASS(godot::GDExample);
+			godot::ClassDB::register_class<godot::GDExample>();
 			break;
 		}
 		case godot::MODULE_INITIALIZATION_LEVEL_EDITOR:
